@@ -38,7 +38,7 @@ L'installazione dei pacchetti necessari può essere fatta eseguendo le istruzion
 	$ git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
 	$ cd ~/catkin_ws && catkin_make
 
-NOTA: Se si vuole abilitare la visualizzazione del laser, è necessario andare a modificare in turtlebot3/turtlebot3_description/urdf il file turtlebot3_waffle.gazebo.xacro inserendo true come valore di default in <xacro:arg name="laser_visual"  default="false"/> e sostituendo il seguente frammento di codice:
+NOTA: Se si vuole abilitare la visualizzazione del laser, è necessario andare a modificare in turtlebot3/turtlebot3_description/urdf il file turtlebot3_waffle.gazebo.xacro inserendo true come valore di default in <xacro:arg name="laser_visual"  default="false"/> e sostituendo il seguente frammento di codice in corrispondenza del sensore base_scan:
 
 	<scan>
 	    <horizontal>
@@ -74,8 +74,8 @@ Installazione progetto:
 Per installare il progetto Maze escape è sufficiente clonare il repository nella cartella src di catkin_ws.
 
 E' inoltre necessario:
- 	• inserire il contenuto della cartella models in .gazebo, in modo da rendere fruibili il modello del mondo e degli apriltags.
- 	• sostituire i file settings.yaml e tags.yaml presenti in apriltag_ros/apriltag_ros/config/ con quelli presenti nella cartella config del progetto.
+- inserire il contenuto della cartella models in .gazebo, in modo da rendere fruibili il modello del mondo e degli apriltags.
+- sostituire i file settings.yaml e tags.yaml presenti in apriltag_ros/apriltag_ros/config/ con quelli presenti nella cartella config del progetto.
 
 Per lanciarlo sarà sufficiente eseguire il comando:
 
