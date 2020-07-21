@@ -1,0 +1,108 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='april_tag_dx'>
+    <link name='tag1_dx'>
+    <pose frame=''>-3.3 -4.5 0.075 0 90 0</pose>
+      <visual name='tag1_dx_Visual'>
+        <geometry>
+          <box>
+          <size>0.15 0.15 0.01</size>
+          </box>
+        </geometry>
+           <material>
+          <script>
+            <uri>model://april_tag/Apriltag36_11_00001/materials/scripts</uri>
+            <uri>model://april_tag/Apriltag36_11_00001/materials/textures</uri>
+            <name>Apriltag36_11_00001</name>
+          </script>
+        </material>
+      </visual>
+     </link>
+     <link name='tag2_dx'>
+    <pose frame=''>-4.2 2.35 0.075 90 0 0</pose>
+      <visual name='tag2_dx_Visual'>
+        <geometry>
+          <box>
+          <size>0.15 0.15 0.01</size>
+          </box>
+        </geometry>
+           <material>
+          <script>
+            <uri>model://april_tag/Apriltag36_11_00001/materials/scripts</uri>
+            <uri>model://april_tag/Apriltag36_11_00001/materials/textures</uri>
+            <name>Apriltag36_11_00001</name>
+          </script>
+        </material>
+      </visual>
+     </link>
+     <link name='tag3_dx'>
+    <pose frame=''>-1.75 4.8 0.075 90 0 0</pose>
+      <visual name='tag3_dx_Visual'>
+        <geometry>
+          <box>
+          <size>0.15 0.15 0.01</size>
+          </box>
+        </geometry>
+           <material>
+          <script>
+            <uri>model://april_tag/Apriltag36_11_00001/materials/scripts</uri>
+            <uri>model://april_tag/Apriltag36_11_00001/materials/textures</uri>
+            <name>Apriltag36_11_00001</name>
+          </script>
+        </material>
+      </visual>
+     </link>
+     <link name='tag4_dx'>
+    <pose frame=''>1.8 4.2 0.075 0 90 0</pose>
+      <visual name='tag4_dx_Visual'>
+        <geometry>
+          <box>
+          <size>0.15 0.15 0.01</size>
+          </box>
+        </geometry>
+           <material>
+          <script>
+            <uri>model://april_tag/Apriltag36_11_00001/materials/scripts</uri>
+            <uri>model://april_tag/Apriltag36_11_00001/materials/textures</uri>
+            <name>Apriltag36_11_00001</name>
+          </script>
+        </material>
+      </visual>
+     </link>
+     <link name='tag5_dx'>
+    <pose frame=''>2.75 4.8 0.075 90 0 0</pose>
+      <visual name='tag5_dx_Visual'>
+        <geometry>
+          <box>
+          <size>0.15 0.15 0.01</size>
+          </box>
+        </geometry>
+           <material>
+          <script>
+            <uri>model://april_tag/Apriltag36_11_00001/materials/scripts</uri>
+            <uri>model://april_tag/Apriltag36_11_00001/materials/textures</uri>
+            <name>Apriltag36_11_00001</name>
+          </script>
+        </material>
+      </visual>
+     </link>
+     <link name='tag6_dx'>
+    <pose frame=''>-4.8 -0.1 0.075 0 90 0</pose>
+      <visual name='tag6_dx_Visual'>
+        <geometry>
+          <box>
+          <size>0.15 0.15 0.01</size>
+          </box>
+        </geometry>
+           <material>
+          <script>
+            <uri>model://april_tag/Apriltag36_11_00001/materials/scripts</uri>
+            <uri>model://april_tag/Apriltag36_11_00001/materials/textures</uri>
+            <name>Apriltag36_11_00001</name>
+          </script>
+        </material>
+      </visual>
+     </link>
+    <static>1</static>
+  </model>
+</sdf>

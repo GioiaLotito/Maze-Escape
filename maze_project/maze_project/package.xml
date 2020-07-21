@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>maze_project</name>
+  <version>0.0.0</version>
+  <description>The maze_project package</description>
+
+  
+  <author email="gioia.lotito@studenti.unibas.it">Gioia Lotito</author>
+  <author email="marco.rizzi@studenti.unibas.it">Marco Rizzi</author>
+
+  <license>LGPLv3</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
