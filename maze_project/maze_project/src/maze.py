@@ -51,7 +51,7 @@ class MazeSolver:
 			       	self.rotate_angle(-self.angle)
 			    else:
 					rospy.signal_shutdown("Fuga dal labirinto completata")
-	    self.rate.sleep()
+	    	self.rate.sleep()
         rospy.spin()
 
     def get_rotation (self, msg):
