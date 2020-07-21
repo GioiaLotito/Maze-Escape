@@ -4,7 +4,9 @@
   <version>0.0.0</version>
   <description>The maze_project package</description>
 
-  
+  <maintainer email="gioia.lotito@studenti.unibas.it">Gioia Lotito</maintainer>
+  <maintainer email="marco.rizzi@studenti.unibas.it">Marco Rizzi</maintainer>
+
   <author email="gioia.lotito@studenti.unibas.it">Gioia Lotito</author>
   <author email="marco.rizzi@studenti.unibas.it">Marco Rizzi</author>
 
